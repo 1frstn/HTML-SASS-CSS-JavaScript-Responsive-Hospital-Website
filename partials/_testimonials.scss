@@ -1,0 +1,51 @@
+#testimonials{
+
+    width: $container-lg;
+
+    .container{
+        /* brings swiper paggination down */
+        margin-bottom: 3rem;
+        article{
+            @include gradientBackground;
+            padding: 1.5rem 2rem;
+            border-radius: 1rem;
+            cursor: default;
+            font-size: 0.9rem;
+
+            p{
+                margin-bottom: 1.5rem;
+            }
+
+            .patient{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                .avatar{
+                    width: 2.5rem;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    
+                }
+            }
+        }
+    }
+
+    .swiper-pagination-bullet{
+        background-color:$primary-color ;
+    }
+}
+
+/* MEDIA QUERIES (small DEVICES) */
+@media screen and (max-width:768px)  {
+    #testimonials{
+        margin-top: 1500px;
+        .container{
+           .article{
+            padding: 1.5rem;
+           }
+        }
+    }
+    
+
+}
