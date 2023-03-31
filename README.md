@@ -5,4 +5,5 @@
 <h2>Used Technology</h2>
 <p>HTML SASS JavaScript</p>
 
+
 <img src="./assets/gif-.gif">
